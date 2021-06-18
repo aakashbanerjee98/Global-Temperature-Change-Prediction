@@ -70,7 +70,7 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Built with
 
-- [IBM Watson Studio](https://cloud.ibm.com/catalog?search=cloudant#search_results) 
+- [IBM Watson Studio](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/f48c69b9-4027-4bd2-9c97-74cc86a8e7f0/view?access_token=2dbef31a093f9e95b7be5f3e85bd1722b3057797bab71d419917d921d0c87771) 
 
 
 
