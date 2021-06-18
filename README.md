@@ -4,7 +4,7 @@ Global climate change has already had observable effects on the environment. Gla
 
 Effects that scientists had predicted in the past would result from global climate change are now occurring: loss of sea ice, accelerated sea level rise and longer, more intense heat waves.
 
-according to the 2020 Global Climate Report from NOAA National Centers for Environmental Inf
+According to the 2020 Global Climate Report from NOAA National Centers for Environmental Information, every month of 2020 except December was in the top four warmest on record for that month. In December, the presence of a moderately strong La Niña event cooled the tropical Pacific Ocean and dampened the global average warmth. The month turned out as "only" the eighth warmest December on record.
 
 
 ## Contents
