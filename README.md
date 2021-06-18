@@ -58,17 +58,8 @@ For further development of our project we aspire to take real time data and pred
 
 ## Project roadmap
 
-The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
-
-It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
-
-See below for our proposed schedule on next steps after Call for Code 2021 submission.
-
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/roadmap.png)
 
 
 
@@ -88,7 +79,11 @@ This version 1.0
   <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
 </a>
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+- **Ankita Saha** 
+- **Ankita Ghosh**
+- **Aakash Banerjee**
+- **Aadriza Sen Sharma**
+- **Sraboni Ghosh**
 
 
 
