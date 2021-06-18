@@ -75,11 +75,8 @@ This version 1.0
 
 ## Authors
 
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
 
-- **Ankita Saha** 
+- **Ankita Saha(Team Leader)** 
 - **Ankita Ghosh**
 - **Aakash Banerjee**
 - **Aadriza Sen Sharma**
@@ -89,4 +86,4 @@ This version 1.0
 
 ## Acknowledgments
 
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+Project Done under mentorship of Sainik Kumar Mahato
