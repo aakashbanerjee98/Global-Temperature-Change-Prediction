@@ -10,10 +10,11 @@ According to the 2020 Global Climate Report from NOAA National Centers for Envir
 ## Contents
 
 - [Global-Temperature-Change-Prediction](#submission-or-project-name)
-  - [Short description](#short-description)
-  - [Long description](#long-description)
-  - [Demo video](#demo-video)
-  - [Project roadmap](#project-roadmap)
+  - [Short Description](#short-description)
+  - [Long Description](#long-description)
+  - [Demo Video](#demo-video)
+  - [Solution Roadmap](#solution-roadmap)
+    - [Future Scope](#future-scope)
   - [Built with](#built-with)
   - [Version](#version)
   - [Authors](#authors)
@@ -48,18 +49,17 @@ We perceive that climate change is already occurring and additionally warming is
 [![Watch the video](https://github.com/aakashbanerjee98/Global-Temperature-Change-Prediction/blob/master/images/video%20thumnail%201.png)](https://youtu.be/qCF4gl1YhIM)
 
 
-## Future Scope
-
-Our submission is the implementation of data science using deep learning to predict the Global average temperature for the next 10 years. We are in the initial stages of building a project that will help us to quantify and analyse the degree of environmental sustainability that we desire to achieve. Our submission is moderately stable.
-
-For further development of our project we aspire to take real time data and predict the outcome for following years. Our model helps to analyse the environmental sustainability for global temperature. There is also the aspect of predicting rainfall and other natural phenomena which we intend to incorporate in the future. We also want to also include aspects of social sustainability by including models to promote health and diversity. Moreover, environmental sustainability using stock prediction using machine learning will also be part of our entire project. All of this will be done with the goal in mind to achieve sustainability. 
 
 
-## Project roadmap
+## Solution Roadmap
 
 
 ![Roadmap](./images/roadmap.png)
 
+### Future Scope
+Our submission is the implementation of data science using deep learning to predict the Global average temperature for the next 10 years. We are in the initial stages of building a project that will help us to quantify and analyse the degree of environmental sustainability that we desire to achieve. Our submission is moderately stable.
+
+For further development of our project we aspire to take real time data and predict the outcome for following years. Our model helps to analyse the environmental sustainability for global temperature. There is also the aspect of predicting rainfall and other natural phenomena which we intend to incorporate in the future. We also want to also include aspects of social sustainability by including models to promote health and diversity. Moreover, environmental sustainability using stock prediction using machine learning will also be part of our entire project. All of this will be done with the goal in mind to achieve sustainability. 
 
 
 ## Built with
