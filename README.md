@@ -1,5 +1,5 @@
 # Global-Temperature-Change-Prediction
-Introduc
+
 Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner.
 
 Effects that scientists had predicted in the past would result from global climate change are now occurring: loss of sea ice, accelerated sea level rise and longer, more intense heat waves.
@@ -95,5 +95,3 @@ This version 1.0
 ## Acknowledgments
 
 - Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
-- hi
-- hello
