@@ -1,13 +1,7 @@
 # Global-Temperature-Change-Prediction
-# Submission or project name
-
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
 
 A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [register for Call for Code 2021](https://developer.ibm.com/callforcode/get-started/)!
 
-> If you're new to open source, please consider taking the [free "Introduction to Open Source" class](https://cognitiveclass.ai/courses/introduction-to-open-source).
-
-_Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md)._
 
 ## Contents
 
@@ -31,35 +25,40 @@ _Read this in other languages: [English](README.md), [한국어](./docs/README.k
   - [Acknowledgments](#acknowledgments)
 
 ## Short description
+Predicting the temperature for next 10 years from the previous 116 years data using LSTM model (3 Layers)
 
-### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time, keeping them engaged, entertained, and on top of their education is important.
+## Long description
 
-### How can technology help?
+The phrase Sustainability is used to explain many distinctive strategies for enhancing our existence. The biggest threat to environmental sustainability is climate change. Climate movement gives a tremendous possibility to liberate large economic and social advantages that can assist us obtain the Sustainable Development Goals. SDG aims to “take immediate action to fight climate change and its impact”, while acknowledging that we are making a model to predict the Global Temperature with the aim that we can take the necessary precautions to minimize weather-associated risks.
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+ - We take the monthly temperature from 1880 to 2020 dataset. We then clean our dataset and add a column for average annual temperature for the said years.
+ - We will then proceed by splitting the training and testing set in a 90:10 ratio.
+ - We would need to create a collection of training data by which the x-values will be a 116-year windowed data and the corresponding y-value as the subsequent temperature change data in the next 10 years.
+- We have :
+  - LSTM : the 116 units represent the 116-year windowed datasets while the returned value specifies the input of the next layer.
+  - Dropout(p=0.2): for regularizing effects and preventing the training set’s over-fitting.
 
-### The idea
+- The model has been trained for 500 epochs. So we get the predicted temperature helping us to determine how the global temperature is going to change and what essential precautions or steps we should take to save the environment.
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+We are building a Global Temperature Prediction model which can efficiently estimate the average Global temperature of the next 10 years using 116-year participation records across the world. Although warming has no longer been uniform across the world, the upward fashion inside the globally averaged temperature shows that more regions are warming than cooling. However, the hypothesis of working with the global average temperature is convenient for monitoring the changes in Earth's energy. 
+The Global Temperature Prediction model can determine that Earth’s global average temperature will rise day by day, but the change in the climate depends on the decisions we make about fossil fuel and land use. If we keep emitting as much as, or even more, greenhouse gases, then this will cause immeasurably more warming during the 21st Century than we have seen in the 20th Century. Despite the COVID-19 lockdown, according to NOAA's 2020 Annual Climate Report the integrated land and ocean temperature has increased at an average rate of 0.08 degrees Celsius in every 10 years since 1880; however, the average rate of rising since 1981 (0.18°C) has been more than twice that rate. Here through our project we are predicting the change of temperature for the next 10 years so that we can take preventive measures to avoid serious consequences of climate change.
+We perceive that climate change is already occurring and additionally warming is unavoidable. If we hope to limit the negative impacts of climate change, we must prepare by identifying vulnerabilities and planning accordingly. Temperature predictions help us to prepare ourselves for climate change.
+
+
+
 
 ## Demo video
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+## Future Scope
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+Our submission is the implementation of data science using deep learning to predict the Global average temperature for the next 10 years. We are in the initial stages of building a project that will help us to quantify and analyse the degree of environmental sustainability that we desire to achieve. Our submission is moderately stable.
 
-## Long description
+For further development of our project we aspire to take real time data and predict the outcome for following years. Our model helps to analyse the environmental sustainability for global temperature. There is also the aspect of predicting rainfall and other natural phenomena which we intend to incorporate in the future. We also want to also include aspects of social sustainability by including models to promote health and diversity. Moreover, environmental sustainability using stock prediction using machine learning will also be part of our entire project. All of this will be done with the goal in mind to achieve sustainability. 
 
-[More detail is available here](./docs/DESCRIPTION.md)
 
 ## Project roadmap
 
@@ -75,34 +74,17 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ![Roadmap](./images/roadmap.jpg)
 
-## Getting started
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
-
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
 
 ## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [IBM Watson Studio](https://cloud.ibm.com/catalog?search=cloudant#search_results) 
 
-## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## Version
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+This version 1.0
 
 ## Authors
 
@@ -112,9 +94,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
-## License
 
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
