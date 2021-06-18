@@ -10,7 +10,6 @@ According to the 2020 Global Climate Report from NOAA National Centers for Envir
 ## Contents
 
 - [Global-Temperature-Change-Prediction](#submission-or-project-name)
-  - [Contents](#contents)
   - [Short description](#short-description)
   - [Long description](#long-description)
   - [Demo video](#demo-video)
