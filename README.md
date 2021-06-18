@@ -5,23 +5,15 @@ A basic GitHub repository example for new [Call for Code](https://developer.ibm.
 
 ## Contents
 
-- [Submission or project name](#submission-or-project-name)
+- [Global-Temperature-Change-Prediction](#submission-or-project-name)
   - [Contents](#contents)
   - [Short description](#short-description)
-    - [What's the problem?](#whats-the-problem)
-    - [How can technology help?](#how-can-technology-help)
-    - [The idea](#the-idea)
-  - [Demo video](#demo-video)
-  - [The architecture](#the-architecture)
   - [Long description](#long-description)
+  - [Demo video](#demo-video)
   - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
-  - [Live demo](#live-demo)
   - [Built with](#built-with)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
+  - [Version](#version)
   - [Authors](#authors)
-  - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
 ## Short description
