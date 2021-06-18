@@ -46,7 +46,7 @@ We perceive that climate change is already occurring and additionally warming is
 
 ## Demo video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/qCF4gl1YhIM)
+[![Watch the video](https://github.com/aakashbanerjee98/Global-Temperature-Change-Prediction/blob/master/images/Video%20Thumnail.png)](https://youtu.be/qCF4gl1YhIM)
 
 
 ## Future Scope
