@@ -65,6 +65,7 @@ For further development of our project we aspire to take real time data and pred
 ## Built with
 
 - [IBM Watson Studio](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/f48c69b9-4027-4bd2-9c97-74cc86a8e7f0/view?access_token=2dbef31a093f9e95b7be5f3e85bd1722b3057797bab71d419917d921d0c87771) 
+- [IBM Watson Studio 1](https://jp-tok.dataplatform.cloud.ibm.com/analytics/notebooks/v2/00300440-5c34-4873-b722-8acc58551dd8/view?access_token=120d13c1263bba2a51dfca6b5b00e4f9062a926fb3d00b2f4f095f35da84e428)
 
 
 
